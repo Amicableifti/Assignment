@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    padding: 2px;
+    overflow: hidden;
+}
+body {
+
+}
+header{
+    width: 1200px;
+    border-bottom: 1px solid #34508233;    -
+;
+}
+.header{
+
+overflow: hidden;
+}
+.info{
+
+width: 59%;
+
+float: left;
+}
+.info p {
+    
+text-decoration: none;
+    
+padding: 5px;
+    
+margin: 5px;
+}
+.info p b{
+    
+}
+.info p a{
+    
+text-decoration: none;
+    
+color: skyblue;
+    
+padding: 5px;
+}
+.sociallink{
+
+width: 40%;
+
+float: left;
+}
+.sociallink ul {
+    text-align: right;
+    display: inline-block;
+}
+.sociallink ul li{/* display: inline-block; */list-style: none;padding: 0px;}
+.sociallink ul li a{
+    background: #ffffff;
+    display: block;
+    width: 26px;
+    height: 21px;
+    text-align: center;
+    line-height: 23px;
+    box-shadow: 1px 2px 4px #f3ecec;
+    border-radius: 66%;
+    color: black;
+    margin: 3px;
+}
+.sociallink ul li a.fb:hover {
+     background:green;
+ transition: .5s;
+ color:#fff;
+}
+.sociallink ul li a.yo:hover {
+ background:red;
+ color:#fff;
+}
+
+.sociallink ul li a.tw:hover {
+ background:green;
+ transition: .5s;
+ color:#fff;
+}
+.sociallink ul li a.li:hover {
+ background:green;
+ color:#fff;
+}
+.sociallink ul li a.am:hover {
+ background: red;
+ color:#fff;
+}.sociallink ul li a.ub:hover {
+ background:black;
+ color:#fff;
+}
